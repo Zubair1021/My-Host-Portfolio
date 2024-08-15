@@ -237,7 +237,7 @@ h6 {
 }
 
 .hero-container{
-  margin-right: 220px;
+  margin-right: 180px;
   margin-top: 300px;
 }
 
@@ -262,7 +262,7 @@ h6 {
 
 #hero h1 {
   margin: 0px 0px 10px 0;
-  font-size: 64px;
+  font-size: 60px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
@@ -283,7 +283,7 @@ h6 {
   }
   .hero-container{
     margin-top: 600px;
-    margin-left: 210px;
+    margin-left: 185px;
   }
 
 }
