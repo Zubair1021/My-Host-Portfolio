@@ -144,11 +144,11 @@
       <h1>Muhammad <span class="text-gradient">Zubair</span></h1>
 
       <p class="hero-subtitle">
-        I'm a <span class="typed" data-typed-items="Full Stack Developer,AI Integration Expert,React & Next.js Engineer,LangChain & LangGraph Dev,Custom RAG Architect,Code Artisan"></span>
+        I'm a <span class="typed" data-typed-items="Full Stack Developer,AI Integration Expert,Solution Provider,Frontend Architect,ChatBot Developer,Code Artisan"></span>
       </p>
 
       <p class="hero-description">
-        Building intelligent web applications that blend cutting-edge frontend experiences with powerful AI-powered backends — from pixel-perfect UIs to custom RAG systems.
+        I build web applications where stunning frontends meet powerful AI infrastructure — from design systems to LLM-powered pipelines
       </p>
 
       <div class="hero-cta">
@@ -160,13 +160,26 @@
         </a>
       </div>
 
-      <div class="hero-tech-pills">
-        <span class="tech-pill">React</span>
-        <span class="tech-pill">Next.js</span>
-        <span class="tech-pill">Node.js</span>
-        <span class="tech-pill">LangChain</span>
-        <span class="tech-pill">LangGraph</span>
-        <span class="tech-pill">RAG Systems</span>
+      <div class="hero-stats-row">
+        <div class="h-stat">
+          <span class="h-stat-num">25<sup>+</sup></span>
+          <span class="h-stat-label">Projects</span>
+        </div>
+        <div class="h-stat-sep"></div>
+        <div class="h-stat">
+          <span class="h-stat-num">50<sup>+</sup></span>
+          <span class="h-stat-label">Clients</span>
+        </div>
+        <div class="h-stat-sep"></div>
+        <div class="h-stat">
+          <span class="h-stat-num">3<sup>+</sup></span>
+          <span class="h-stat-label">Years Exp</span>
+        </div>
+        <div class="h-stat-sep"></div>
+        <div class="h-stat">
+          <span class="h-stat-num">10<sup>+</sup></span>
+          <span class="h-stat-label">AI Solutions</span>
+        </div>
       </div>
     </div>
 
@@ -327,116 +340,419 @@
     </section>
 
     <!-- ======= Tech Stack / Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
+    <section id="skills" class="skills skills-dark">
       <div class="container">
 
-        <div class="section-title">
+        <div class="section-title section-title-light">
           <h2>Tech Stack</h2>
           <p>A comprehensive toolkit spanning frontend, backend, AI engineering, databases, and business automation. I stay at the bleeding edge of modern web and AI technologies.</p>
         </div>
 
-        <div class="tech-categories">
+        <!-- ── Orbit Visualization (all screen sizes, scales via CSS) ── -->
+        <div class="orbit-shell" id="orbitShell">
+          <svg class="orbit-svg" id="orbitSvg" xmlns="http://www.w3.org/2000/svg"></svg>
 
-          <!-- Frontend -->
-          <div class="tech-category" data-aos="fade-up">
-            <div class="category-header">
-              <div class="category-icon"><i class="bi bi-palette-fill"></i></div>
-              <h3>Frontend Development</h3>
+          <div class="orbit-center" id="orbitCenter">
+            <div class="oc-ring r1"></div>
+            <div class="oc-ring r2"></div>
+            <div class="oc-ring r3"></div>
+            <div class="oc-spin-border">
+              <video class="oc-photo" autoplay loop muted playsinline preload="metadata" aria-label="Muhammad Zubair tech stack video">
+                <source src="assets/img/Tech Stack Me.webm" type="video/webm">
+              </video>
             </div>
-            <div class="tech-tags">
-              <span class="tech-tag react-tag"><i class="bx bxl-react"></i> React.js</span>
-              <span class="tech-tag next-tag"><i class="bi bi-arrow-right-circle-fill"></i> Next.js</span>
-              <span class="tech-tag nuxt-tag"><i class="bi bi-n-circle-fill"></i> Nuxt.js</span>
-              <span class="tech-tag vue-tag"><i class="bx bxl-vuejs"></i> Vue.js</span>
-              <span class="tech-tag angular-tag"><i class="bx bxl-angular"></i> Angular</span>
-              <span class="tech-tag tw-tag"><i class="bi bi-wind"></i> Tailwind CSS</span>
-              <span class="tech-tag bs-tag"><i class="bx bxl-bootstrap"></i> Bootstrap</span>
+            <div class="oc-badge">
+              <span class="oc-dot"></span>Full Stack &amp; AI
             </div>
           </div>
 
-          <!-- Backend -->
-          <div class="tech-category" data-aos="fade-up" data-aos-delay="50">
-            <div class="category-header">
-              <div class="category-icon"><i class="bi bi-hdd-stack-fill"></i></div>
-              <h3>Backend &amp; APIs</h3>
-            </div>
-            <div class="tech-tags">
-              <span class="tech-tag node-tag"><i class="bx bxl-nodejs"></i> Node.js</span>
-              <span class="tech-tag express-tag"><i class="bi bi-lightning-fill"></i> Express.js</span>
-              <span class="tech-tag python-tag"><i class="bx bxl-python"></i> Python</span>
-              <span class="tech-tag php-tag"><i class="bx bxl-php"></i> PHP</span>
-              <span class="tech-tag api-tag"><i class="bi bi-diagram-3-fill"></i> REST APIs</span>
-              <span class="tech-tag gql-tag"><i class="bi bi-braces-asterisk"></i> GraphQL</span>
-            </div>
-          </div>
-
-          <!-- AI & ML — Special dark card -->
-          <div class="tech-category ai-category" data-aos="fade-up" data-aos-delay="100">
-            <div class="category-header">
-              <div class="category-icon ai-cat-icon"><i class="bi bi-cpu-fill"></i></div>
-              <h3>AI &amp; Intelligent Systems <span class="expert-badge">Expert</span></h3>
-            </div>
-            <div class="tech-tags">
-              <span class="tech-tag ai-tag"><i class="bi bi-link-45deg"></i> LangChain</span>
-              <span class="tech-tag ai-tag"><i class="bi bi-diagram-2-fill"></i> LangGraph</span>
-              <span class="tech-tag ai-tag"><i class="bi bi-search-heart-fill"></i> RAG Systems</span>
-              <span class="tech-tag ai-tag"><i class="bi bi-database-fill"></i> Vector DBs</span>
-              <span class="tech-tag ai-tag"><i class="bi bi-robot"></i> OpenAI API</span>
-              <span class="tech-tag ai-tag"><i class="bi bi-stars"></i> Embeddings</span>
-              <span class="tech-tag ai-tag"><i class="bi bi-chat-dots-fill"></i> AI Agents</span>
-              <span class="tech-tag ai-tag"><i class="bi bi-plugin"></i> LLM Integration</span>
-            </div>
-          </div>
-
-          <!-- Databases -->
-          <div class="tech-category" data-aos="fade-up" data-aos-delay="150">
-            <div class="category-header">
-              <div class="category-icon"><i class="bi bi-database-fill-gear"></i></div>
-              <h3>Databases</h3>
-            </div>
-            <div class="tech-tags">
-              <span class="tech-tag mongo-tag"><i class="bx bxl-mongodb"></i> MongoDB</span>
-              <span class="tech-tag mysql-tag"><i class="bi bi-table"></i> MySQL</span>
-              <span class="tech-tag pg-tag"><i class="bi bi-grid-3x3-gap-fill"></i> PostgreSQL</span>
-              <span class="tech-tag mssql-tag"><i class="bi bi-microsoft"></i> MSSQL</span>
-              <span class="tech-tag redis-tag"><i class="bi bi-memory"></i> Redis</span>
-            </div>
-          </div>
-
-          <!-- Tools & Platforms -->
-          <div class="tech-category" data-aos="fade-up" data-aos-delay="200">
-            <div class="category-header">
-              <div class="category-icon"><i class="bi bi-tools"></i></div>
-              <h3>Tools &amp; Platforms</h3>
-            </div>
-            <div class="tech-tags">
-              <span class="tech-tag git-tag"><i class="bx bxl-git"></i> Git</span>
-              <span class="tech-tag github-tag"><i class="bx bxl-github"></i> GitHub</span>
-              <span class="tech-tag docker-tag"><i class="bx bxl-docker"></i> Docker</span>
-              <span class="tech-tag zoho-tag"><i class="bi bi-gear-wide-connected"></i> Zoho CRM</span>
-              <span class="tech-tag shopify-tag"><i class="bi bi-bag-fill"></i> Shopify</span>
-              <span class="tech-tag wp-tag"><i class="bx bxl-wordpress"></i> WordPress</span>
-            </div>
-          </div>
-
-          <!-- Languages -->
-          <div class="tech-category" data-aos="fade-up" data-aos-delay="250">
-            <div class="category-header">
-              <div class="category-icon"><i class="bi bi-code-square"></i></div>
-              <h3>Programming Languages</h3>
-            </div>
-            <div class="tech-tags">
-              <span class="tech-tag js-tag"><i class="bx bxl-javascript"></i> JavaScript</span>
-              <span class="tech-tag ts-tag"><i class="bi bi-filetype-tsx"></i> TypeScript</span>
-              <span class="tech-tag python-tag"><i class="bx bxl-python"></i> Python</span>
-              <span class="tech-tag cpp-tag"><i class="bi bi-cpu"></i> C / C++</span>
-              <span class="tech-tag cs-tag"><i class="bi bi-microsoft"></i> C#</span>
-            </div>
-          </div>
-
+          <div class="orbit-nodes" id="orbitNodes"></div>
         </div>
+
+        <!-- Mobile flow layout (generated by JS) -->
+        <div class="flow-layout" id="flowLayout"></div>
+
       </div>
     </section>
+
+    <script>
+    /* ── Inline Next.js SVG (no external icon font has it) ── */
+    var _NJS_SVG = '<svg viewBox="0 0 24 24" width="20" height="20" xmlns="http://www.w3.org/2000/svg" style="display:block"><circle cx="12" cy="12" r="10.8" fill="#000" stroke="rgba(255,255,255,0.65)" stroke-width="1.1"/><path d="M8.5 16V8l3.5 5.2V8M15.5 8v8" stroke="white" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>';
+    /* Orbit visualization ── desktop only (≥ 768px), hidden via CSS on mobile */
+    (function () {
+      var RINGS = [
+        { r: 172, startDeg: -90, nodes: [
+          { label: 'React',      icon: 'bx bxl-react',             color: '#61DAFB', glow: 'rgba(97,218,251,0.65)'  },
+          { label: 'Node.js',    icon: 'bx bxl-nodejs',            color: '#68A063', glow: 'rgba(104,160,99,0.65)'  },
+          { label: 'Python',     icon: 'bx bxl-python',            color: '#4B8BBE', glow: 'rgba(75,139,190,0.65)'  },
+          { label: 'LangChain',  icon: 'bi bi-link-45deg',         color: '#22c55e', glow: 'rgba(34,197,94,0.65)'   },
+          { label: 'TypeScript', icon: 'bx bxl-typescript',        color: '#3178C6', glow: 'rgba(49,120,198,0.65)'  },
+          { label: 'Nuxt.js',    icon: 'bi bi-layers-fill',        color: '#00DC82', glow: 'rgba(0,220,130,0.65)'   },
+        ]},
+        { r: 288, startDeg: -67.5, nodes: [
+          { label: 'Next.js',    svg: _NJS_SVG,                    color: '#ffffff', glow: 'rgba(255,255,255,0.5)'  },
+          { label: 'Vue.js',     icon: 'bx bxl-vuejs',             color: '#42B883', glow: 'rgba(66,184,131,0.65)'  },
+          { label: 'Express',    icon: 'bi bi-lightning-fill',     color: '#cccccc', glow: 'rgba(200,200,200,0.5)'  },
+          { label: 'OpenAI',     icon: 'bi bi-robot',              color: '#ab5cf7', glow: 'rgba(171,92,247,0.65)'  },
+          { label: 'MongoDB',    icon: 'bx bxl-mongodb',           color: '#47A248', glow: 'rgba(71,162,72,0.65)'   },
+          { label: 'LangGraph',  icon: 'bi bi-diagram-2-fill',     color: '#f59e0b', glow: 'rgba(245,158,11,0.65)'  },
+          { label: 'Docker',     icon: 'bx bxl-docker',            color: '#2496ED', glow: 'rgba(36,150,237,0.65)'  },
+          { label: 'Zoho',       icon: 'bi bi-gear-wide-connected',color: '#E01E25', glow: 'rgba(224,30,37,0.65)'   },
+        ]},
+        { r: 396, startDeg: -80, nodes: [
+          { label: 'Angular',    icon: 'bx bxl-angular',           color: '#DD0031', glow: 'rgba(221,0,49,0.55)'    },
+          { label: 'Tailwind',   icon: 'bi bi-wind',               color: '#38BDF8', glow: 'rgba(56,189,248,0.55)'  },
+          { label: 'PHP',        icon: 'bx bxl-php',               color: '#8892BF', glow: 'rgba(136,146,191,0.55)' },
+          { label: 'PostgreSQL', icon: 'bi bi-database-fill',      color: '#336791', glow: 'rgba(51,103,145,0.55)'  },
+          { label: 'Git',        icon: 'bx bxl-git',               color: '#F05032', glow: 'rgba(240,80,50,0.55)'   },
+          { label: 'RAG',        icon: 'bi bi-search-heart-fill',  color: '#00BFFF', glow: 'rgba(0,191,255,0.65)'   },
+          { label: 'Shopify',    icon: 'bi bi-bag-fill',           color: '#96BF48', glow: 'rgba(150,191,72,0.55)'  },
+          { label: 'WordPress',  icon: 'bx bxl-wordpress',         color: '#21759B', glow: 'rgba(33,117,155,0.55)'  },
+          { label: 'Redis',      icon: 'bi bi-memory',             color: '#DC382D', glow: 'rgba(220,56,45,0.55)'   },
+        ]}
+      ];
+
+      var shell    = document.getElementById('orbitShell');
+      var svgEl    = document.getElementById('orbitSvg');
+      var nodesDiv = document.getElementById('orbitNodes');
+      if (!shell) return;
+
+      var CX = 460, CY = 460;
+      var ND = [62, 56, 50];
+
+      svgEl.setAttribute('viewBox', '0 0 920 920');
+      svgEl.setAttribute('width',  '920');
+      svgEl.setAttribute('height', '920');
+
+      function se(tag, attrs) {
+        var el = document.createElementNS('http://www.w3.org/2000/svg', tag);
+        for (var k in attrs) el.setAttribute(k, attrs[k]);
+        return el;
+      }
+
+      var defs = se('defs', {});
+
+      var fLine = se('filter', { id: 'fg', x: '-40%', y: '-40%', width: '180%', height: '180%' });
+      var fb1 = se('feGaussianBlur', { stdDeviation: '3', result: 'b' });
+      var fm1 = se('feMerge', {});
+      fm1.appendChild(se('feMergeNode', { in: 'b' }));
+      fm1.appendChild(se('feMergeNode', { in: 'SourceGraphic' }));
+      fLine.appendChild(fb1); fLine.appendChild(fm1);
+      defs.appendChild(fLine);
+
+      var fDot = se('filter', { id: 'fd', x: '-50%', y: '-50%', width: '200%', height: '200%' });
+      var fb2 = se('feGaussianBlur', { stdDeviation: '3', result: 'b' });
+      var fm2 = se('feMerge', {});
+      fm2.appendChild(se('feMergeNode', { in: 'b' }));
+      fm2.appendChild(se('feMergeNode', { in: 'SourceGraphic' }));
+      fDot.appendChild(fb2); fDot.appendChild(fm2);
+      defs.appendChild(fDot);
+
+      svgEl.appendChild(defs);
+
+      [172, 288, 396].forEach(function (r, i) {
+        var alpha = [0.09, 0.06, 0.045][i];
+        svgEl.appendChild(se('circle', {
+          cx: CX, cy: CY, r: r,
+          fill: 'none',
+          stroke: 'rgba(0,191,255,' + alpha + ')',
+          'stroke-width': '1',
+          'stroke-dasharray': '4 12'
+        }));
+      });
+
+      var allItems = [];
+      var boostedLinesToRenderLast = [];
+
+      RINGS.forEach(function (ring, ri) {
+        var count   = ring.nodes.length;
+        var lineDur = [540, 700, 880][ri];
+        var lineGap = [80,  60,  45][ri];
+        var ringBase= [0,   360, 760][ri];
+
+        ring.nodes.forEach(function (node, ni) {
+          var deg = ring.startDeg + (360 / count) * ni;
+          var rad = deg * Math.PI / 180;
+          var nx  = CX + ring.r * Math.cos(rad);
+          var ny  = CY + ring.r * Math.sin(rad);
+          var boostedThread = node.label === 'React' || node.label === 'PHP' || node.label === 'LangChain';
+          var centerOffset = boostedThread ? 78 : 0;
+          var lx1 = CX + centerOffset * Math.cos(rad);
+          var ly1 = CY + centerOffset * Math.sin(rad);
+
+          var gid  = 'g' + ri + ni;
+          var grad = se('linearGradient', { id: gid, gradientUnits: 'userSpaceOnUse', x1: CX, y1: CY, x2: nx, y2: ny });
+          grad.appendChild(se('stop', { offset: '0%',   'stop-color': 'rgba(0,191,255,0.75)' }));
+          grad.appendChild(se('stop', { offset: '55%',  'stop-color': node.color, 'stop-opacity': boostedThread ? '0.82' : '0.6' }));
+          grad.appendChild(se('stop', { offset: '100%', 'stop-color': node.color, 'stop-opacity': boostedThread ? '1' : '0.85' }));
+          defs.appendChild(grad);
+
+          var delay = ringBase + ni * lineGap;
+          var baseWidth = ri === 0 ? 2.2 : ri === 1 ? 1.7 : 1.3;
+          var lineLen = Math.hypot(nx - lx1, ny - ly1);
+          var line  = se('line', {
+            x1: lx1, y1: ly1, x2: nx, y2: ny,
+            stroke: 'url(#' + gid + ')',
+            'stroke-width': String(boostedThread ? (baseWidth + 0.55) : baseWidth),
+            'stroke-linecap': 'round',
+            filter: 'url(#fg)'
+          });
+          var accentLine = null;
+          var solidBoostLine = null;
+          if (boostedThread) {
+            accentLine = se('line', {
+              x1: lx1, y1: ly1, x2: nx, y2: ny,
+              stroke: 'rgba(245,250,255,0.92)',
+              'stroke-width': String(baseWidth * 0.42),
+              'stroke-linecap': 'round',
+              filter: 'url(#fg)'
+            });
+            solidBoostLine = se('line', {
+              x1: lx1, y1: ly1, x2: nx, y2: ny,
+              stroke: 'rgba(0,191,255,0.98)',
+              'stroke-width': String(baseWidth * 0.55),
+              'stroke-linecap': 'round',
+              opacity: '0.95',
+              filter: 'url(#fg)'
+            });
+          }
+          /* stroke-dashoffset must be a CSS property (via .style) for transitions to work */
+          line.style.strokeDasharray  = String(lineLen);
+          line.style.strokeDashoffset = String(lineLen);
+          line.style.transition = 'stroke-dashoffset ' + lineDur + 'ms cubic-bezier(0.25,0.46,0.45,0.94)';
+          if (boostedThread) {
+            boostedLinesToRenderLast.push(line);
+          } else {
+            svgEl.appendChild(line);
+          }
+          if (accentLine) {
+            accentLine.style.strokeDasharray  = String(lineLen);
+            accentLine.style.strokeDashoffset = String(lineLen);
+            accentLine.style.transition = 'stroke-dashoffset ' + lineDur + 'ms cubic-bezier(0.25,0.46,0.45,0.94)';
+            boostedLinesToRenderLast.push(accentLine);
+          }
+          if (solidBoostLine) {
+            boostedLinesToRenderLast.push(solidBoostLine);
+          }
+
+          var nd        = ND[ri];
+          var fz        = Math.round(nd * 0.46);
+          var nodeDelay = delay + lineDur * 0.78;
+          var nodeEl    = document.createElement('div');
+          nodeEl.className = 'o-node';
+          nodeEl.style.cssText = 'left:' + nx + 'px;top:' + ny + 'px;--nc:' + node.color + ';--ng:' + node.glow + ';transition-delay:' + nodeDelay + 'ms';
+          var icoInner = node.svg
+            ? node.svg
+            : '<i class="' + node.icon + '"></i>';
+          nodeEl.innerHTML =
+            '<div class="on-ico" style="width:' + nd + 'px;height:' + nd + 'px;font-size:' + fz + 'px">' +
+            icoInner + '</div>' +
+            '<span class="on-lbl">' + node.label + '</span>';
+          nodesDiv.appendChild(nodeEl);
+
+          allItems.push({
+            line: line,
+            revealLines: accentLine ? [line, accentLine] : [line],
+            x1: lx1, y1: ly1, x2: nx, y2: ny,
+            delay: delay,
+            color: node.color
+          });
+        });
+      });
+
+      boostedLinesToRenderLast.forEach(function (ln) {
+        svgEl.appendChild(ln);
+      });
+
+      // Final deterministic fallback: pinned top-layer lines for threads that kept disappearing.
+      [
+        { x1: 460, y1: 382, x2: 460, y2: 288, c: 'rgba(97,218,251,0.96)' },
+        { x1: 538, y1: 460, x2: 856, y2: 460, c: 'rgba(136,146,191,0.96)' },
+        { x1: 460, y1: 538, x2: 460, y2: 632, c: 'rgba(34,197,94,0.96)' }
+      ].forEach(function (p) {
+        var pinned = se('line', {
+          x1: String(p.x1), y1: String(p.y1), x2: String(p.x2), y2: String(p.y2),
+          stroke: p.c,
+          'stroke-width': '1.9',
+          'stroke-linecap': 'round',
+          opacity: '0.95',
+          filter: 'url(#fg)'
+        });
+        svgEl.appendChild(pinned);
+      });
+
+      var fired = false;
+      function run() {
+        if (fired) return;
+        fired = true;
+        /* One rAF ensures the browser has painted the initial hidden state */
+        requestAnimationFrame(function () {
+          allItems.forEach(function (it) {
+            setTimeout(function () {
+              it.revealLines.forEach(function (ln) {
+                ln.style.strokeDashoffset = '0';
+              });
+            }, it.delay);
+          });
+          setTimeout(function () { nodesDiv.classList.add('revealed'); }, 60);
+        });
+      }
+
+      var io = new IntersectionObserver(function (e) { if (e[0].isIntersecting) run(); }, { threshold: 0.12 });
+      io.observe(shell);
+      if (shell.getBoundingClientRect().top < window.innerHeight * 0.95) setTimeout(run, 350);
+
+      function spawnDot(it) {
+        var dot = se('circle', { r: '3.2', filter: 'url(#fd)' });
+        dot.setAttribute('fill', it.color);
+        dot.setAttribute('opacity', '0.9');
+        svgEl.appendChild(dot);
+        var start = performance.now();
+        var dur   = 780 + Math.random() * 520;
+        function tick(now) {
+          var p = Math.min((now - start) / dur, 1);
+          var e = p < 0.5 ? 2 * p * p : -1 + (4 - 2 * p) * p;
+          dot.setAttribute('cx', it.x1 + (it.x2 - it.x1) * e);
+          dot.setAttribute('cy', it.y1 + (it.y2 - it.y1) * e);
+          if (p < 1) { requestAnimationFrame(tick); }
+          else { try { svgEl.removeChild(dot); } catch (er) {} }
+        }
+        requestAnimationFrame(tick);
+      }
+
+      setTimeout(function () {
+        setInterval(function () {
+          if (!fired) return;
+          spawnDot(allItems[Math.floor(Math.random() * allItems.length)]);
+        }, 460);
+      }, 2600);
+    })();
+
+    /* ── Mobile flow layout (≤ 767px) ── */
+    (function () {
+      var fl = document.getElementById('flowLayout');
+      if (!fl) return;
+
+      var centerMedia = document.createElement('div');
+      centerMedia.className = 'fl-center-media';
+      centerMedia.setAttribute('data-aos', 'zoom-in');
+      centerMedia.setAttribute('data-aos-delay', '40');
+      centerMedia.setAttribute('data-aos-duration', '600');
+      centerMedia.innerHTML =
+        '<div class="fl-center-ring">' +
+          '<video class="fl-center-video" autoplay loop muted playsinline preload="metadata" aria-label="Muhammad Zubair tech stack video">' +
+            '<source src="assets/img/Tech Stack Me.webm" type="video/webm">' +
+          '</video>' +
+        '</div>' +
+        '<div class="fl-center-badge"><span class="fl-center-dot"></span>Full Stack &amp; AI</div>';
+      fl.appendChild(centerMedia);
+
+      var CATS = [
+        { n: 'FRONTEND', c: '#4B6EF5', t: [
+          { l: 'React',      i: 'bx bxl-react',              nc: '#61DAFB', ng: 'rgba(97,218,251,0.3)'   },
+          { l: 'Next.js',    s: _NJS_SVG,                    nc: '#ffffff', ng: 'rgba(255,255,255,0.2)'  },
+          { l: 'Nuxt.js',    i: 'bi bi-layers-fill',         nc: '#00DC82', ng: 'rgba(0,220,130,0.3)'    },
+          { l: 'Vue.js',     i: 'bx bxl-vuejs',              nc: '#42B883', ng: 'rgba(66,184,131,0.3)'   },
+          { l: 'Angular',    i: 'bx bxl-angular',            nc: '#DD0031', ng: 'rgba(221,0,49,0.3)'     },
+          { l: 'TypeScript', i: 'bx bxl-typescript',         nc: '#3178C6', ng: 'rgba(49,120,198,0.3)'   },
+          { l: 'Tailwind',   i: 'bi bi-wind',                nc: '#38BDF8', ng: 'rgba(56,189,248,0.3)'   },
+        ]},
+        { n: 'AI / ML', c: '#7C3AED', t: [
+          { l: 'Python',     i: 'bx bxl-python',             nc: '#4B8BBE', ng: 'rgba(75,139,190,0.3)'   },
+          { l: 'LangChain',  i: 'bi bi-link-45deg',          nc: '#22c55e', ng: 'rgba(34,197,94,0.3)'    },
+          { l: 'LangGraph',  i: 'bi bi-diagram-2-fill',      nc: '#f59e0b', ng: 'rgba(245,158,11,0.3)'   },
+          { l: 'OpenAI',     i: 'bi bi-robot',               nc: '#ab5cf7', ng: 'rgba(171,92,247,0.3)'   },
+          { l: 'RAG',        i: 'bi bi-search-heart-fill',   nc: '#00BFFF', ng: 'rgba(0,191,255,0.3)'    },
+        ]},
+        { n: 'BACKEND', c: '#68A063', t: [
+          { l: 'Node.js',    i: 'bx bxl-nodejs',             nc: '#68A063', ng: 'rgba(104,160,99,0.3)'   },
+          { l: 'Express',    i: 'bi bi-lightning-fill',      nc: '#bbbbbb', ng: 'rgba(200,200,200,0.2)'  },
+          { l: 'PHP',        i: 'bx bxl-php',                nc: '#8892BF', ng: 'rgba(136,146,191,0.3)'  },
+        ]},
+        { n: 'DATABASE', c: '#47A248', t: [
+          { l: 'MongoDB',    i: 'bx bxl-mongodb',            nc: '#47A248', ng: 'rgba(71,162,72,0.3)'    },
+          { l: 'PostgreSQL', i: 'bi bi-database-fill',       nc: '#336791', ng: 'rgba(51,103,145,0.3)'   },
+          { l: 'Redis',      i: 'bi bi-memory',              nc: '#DC382D', ng: 'rgba(220,56,45,0.3)'    },
+        ]},
+        { n: 'TOOLS', c: '#E01E25', t: [
+          { l: 'Docker',     i: 'bx bxl-docker',             nc: '#2496ED', ng: 'rgba(36,150,237,0.3)'   },
+          { l: 'Git',        i: 'bx bxl-git',                nc: '#F05032', ng: 'rgba(240,80,50,0.3)'    },
+          { l: 'Zoho',       i: 'bi bi-gear-wide-connected', nc: '#E01E25', ng: 'rgba(224,30,37,0.3)'    },
+          { l: 'Shopify',    i: 'bi bi-bag-fill',            nc: '#96BF48', ng: 'rgba(150,191,72,0.3)'   },
+          { l: 'WordPress',  i: 'bx bxl-wordpress',          nc: '#21759B', ng: 'rgba(33,117,155,0.3)'   },
+        ]},
+      ];
+
+      /* Spine */
+      var sp = document.createElement('div');
+      sp.className = 'fl-spine';
+      fl.appendChild(sp);
+
+      var aosDelay = 0;
+
+      CATS.forEach(function (cat) {
+        /* Category label */
+        var cl = document.createElement('div');
+        cl.className = 'fl-cat';
+        cl.style.setProperty('--cc', cat.c);
+        cl.setAttribute('data-aos', 'fade-up');
+        cl.setAttribute('data-aos-delay', aosDelay);
+        cl.setAttribute('data-aos-duration', '500');
+        cl.innerHTML = '<span>' + cat.n + '</span>';
+        fl.appendChild(cl);
+        aosDelay += 80;
+
+        var techs = cat.t;
+        for (var i = 0; i < techs.length; i += 2) {
+          var L = techs[i];
+          var R = techs[i + 1];
+
+          var row = document.createElement('div');
+          row.className = 'fl-row';
+
+          /* Left card */
+          row.appendChild(makeCard(L, 'left', aosDelay));
+          aosDelay += 60;
+
+          /* Connector dot */
+          var conn = document.createElement('div');
+          conn.className = 'fl-conn';
+          var dot = document.createElement('div');
+          dot.className = 'fl-dot';
+          dot.style.setProperty('--dc', L.nc);
+          conn.appendChild(dot);
+          row.appendChild(conn);
+
+          /* Right card or spacer */
+          if (R) {
+            row.appendChild(makeCard(R, 'right', aosDelay));
+            aosDelay += 60;
+          } else {
+            var spc = document.createElement('div');
+            spc.className = 'fl-spacer';
+            row.appendChild(spc);
+          }
+
+          fl.appendChild(row);
+        }
+      });
+
+      function makeCard(t, side, delay) {
+        var card = document.createElement('div');
+        card.className = 'fl-card ' + side;
+        card.style.setProperty('--nc', t.nc);
+        card.style.setProperty('--ng', t.ng);
+        card.setAttribute('data-aos', side === 'left' ? 'fade-right' : 'fade-left');
+        card.setAttribute('data-aos-delay', delay);
+        card.setAttribute('data-aos-duration', '550');
+        var ico = '<div class="fl-ico">' + (t.s || '<i class="' + t.i + '"></i>') + '</div>';
+        card.innerHTML = ico + '<span class="fl-lbl">' + t.l + '</span>';
+        return card;
+      }
+
+      if (typeof AOS !== 'undefined') setTimeout(function () { AOS.refresh(); }, 150);
+    })();
+    </script>
 
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
@@ -447,69 +763,148 @@
           <p>My professional journey — from academic excellence at UET Lahore to real-world engineering impact at industry-leading companies.</p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title"><i class="bi bi-person-badge-fill me-2"></i>Summary</h3>
-            <div class="resume-item pb-0">
-              <h4>Muhammad Zubair</h4>
-              <p><em>Full Stack Developer and AI Integration Expert with hands-on expertise in MERN stack, Next.js, Nuxt.js, Vue.js, and Angular. Passionate about building intelligent, scalable web applications by integrating AI through LangChain, LangGraph, and custom RAG architectures. Currently contributing as Associate Software Engineer at Xpert Prime.</em></p>
+        <div class="row g-4">
+
+          <!-- ── Left: Summary + Education ── -->
+          <div class="col-lg-6">
+
+            <!-- Profile summary card -->
+            <div class="rv-summary" data-aos="fade-up">
+              <div class="rv-summary-top">
+                <div>
+                  <div class="rv-summary-name">Muhammad Zubair</div>
+                  <div class="rv-summary-role">Full Stack Developer &amp; AI Integration Expert</div>
+                </div>
+                <div class="rv-available"><span class="rv-avail-dot"></span>Available</div>
+              </div>
+              <p class="rv-summary-bio">Full Stack Developer and AI Integration Expert with hands-on expertise in MERN, Next.js, Nuxt.js, Vue.js, and Angular. Passionate about building intelligent, scalable applications powered by LangChain, LangGraph, and custom RAG architectures. Currently contributing as Associate Software Engineer at Xpert Prime.</p>
+              <div class="rv-summary-chips">
+                <span>MERN Stack</span>
+                <span>AI / ML</span>
+                <span>LangChain</span>
+                <span>RAG Systems</span>
+                <span>Zoho Ecosystem</span>
+              </div>
             </div>
 
-            <h3 class="resume-title"><i class="bi bi-mortarboard-fill me-2"></i>Education</h3>
-            <div class="resume-item">
-              <h4>BS Computer Science</h4>
-              <h5>2022 – 2026 &nbsp;|&nbsp; Graduated</h5>
-              <p><em>University of Engineering &amp; Technology (UET) Lahore</em></p>
-              <p>Graduated from UET Lahore — one of Pakistan's top-ranked engineering universities. Specialized in software development, algorithms, system architecture, and AI/ML. Built multiple full-stack and AI-integrated projects during my academic tenure.</p>
+            <!-- Education header -->
+            <div class="rv-col-hdr" data-aos="fade-up">
+              <div class="rv-hdr-icon"><i class="bi bi-mortarboard-fill"></i></div>
+              <div>
+                <h3>Education</h3>
+                <div class="rv-hdr-bar"></div>
+              </div>
             </div>
-            <div class="resume-item">
-              <h4>Intermediate — ICS (Physics)</h4>
-              <h5>2020 – 2022 &nbsp;|&nbsp; Grade A+ (1014/1100)</h5>
-              <p><em>Punjab College</em></p>
-              <p>Secured an exceptional score of 1014/1100 demonstrating strong analytical and problem-solving foundations.</p>
+
+            <div class="rv-card" data-aos="fade-up" data-aos-delay="80">
+              <div class="rv-accent"></div>
+              <div class="rv-meta">
+                <span class="rv-year"><i class="bi bi-calendar3"></i>2022 – 2026</span>
+                <span class="rv-badge">Graduated</span>
+              </div>
+              <h4 class="rv-role">BS Computer Science</h4>
+              <div class="rv-org"><i class="bi bi-building"></i>University of Engineering &amp; Technology (UET) Lahore</div>
+              <p class="rv-desc">Graduated from UET Lahore — one of Pakistan's top-ranked engineering universities. Specialized in software development, algorithms, system architecture, and AI/ML. Built multiple full-stack and AI-integrated projects during my academic tenure.</p>
+              <div class="rv-pill rv-pill-gold"><i class="bi bi-award-fill"></i>Top Engineering University — Pakistan</div>
             </div>
-            <div class="resume-item">
-              <h4>Matriculation</h4>
-              <h5>2018 – 2020 &nbsp;|&nbsp; Grade A+ (1021/1100)</h5>
-              <p><em>Secondary FG Boys High School No.1</em></p>
-              <p>Graduated as a position holder with an outstanding score of 1021/1100.</p>
+
+            <div class="rv-card" data-aos="fade-up" data-aos-delay="160">
+              <div class="rv-accent accent-purple"></div>
+              <div class="rv-meta">
+                <span class="rv-year"><i class="bi bi-calendar3"></i>2020 – 2022</span>
+                <span class="rv-badge">Grade A+</span>
+              </div>
+              <h4 class="rv-role">Intermediate — ICS (Physics)</h4>
+              <div class="rv-org"><i class="bi bi-building"></i>Punjab College</div>
+              <p class="rv-desc">Secured an exceptional score demonstrating strong analytical and problem-solving foundations that formed the bedrock of my engineering career.</p>
+              <div class="rv-pill rv-pill-purple"><i class="bi bi-star-fill"></i>1014 / 1100</div>
             </div>
+
+            <div class="rv-card" data-aos="fade-up" data-aos-delay="240">
+              <div class="rv-accent accent-purple"></div>
+              <div class="rv-meta">
+                <span class="rv-year"><i class="bi bi-calendar3"></i>2018 – 2020</span>
+                <span class="rv-badge">Position Holder</span>
+              </div>
+              <h4 class="rv-role">Matriculation (SSC)</h4>
+              <div class="rv-org"><i class="bi bi-building"></i>Secondary FG Boys High School No.1</div>
+              <p class="rv-desc">Graduated as a position holder with an outstanding academic record that set the foundation for future academic and professional excellence.</p>
+              <div class="rv-pill rv-pill-purple"><i class="bi bi-star-fill"></i>1021 / 1100</div>
+            </div>
+
           </div>
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title"><i class="bi bi-briefcase-fill me-2"></i>Professional Experience</h3>
+          <!-- ── Right: Experience ── -->
+          <div class="col-lg-6">
 
-            <div class="resume-item current-job">
-              <div class="current-badge">&#9679; Current</div>
-              <h4>Associate Software Engineer — Xpert Prime</h4>
-              <h5>Jun 2025 – Present &nbsp;|&nbsp; Onsite</h5>
-              <p>Working across multiple tech stacks: MERN, Next.js, PHP, Shopify, and WordPress. Building custom integrations and automation pipelines using the Zoho ecosystem (CRM, Analytics, Commerce, Flow). Delivering scalable, high-quality software collaborating with cross-functional teams to meet client requirements.</p>
+            <div class="rv-col-hdr" data-aos="fade-up">
+              <div class="rv-hdr-icon hdr-green"><i class="bi bi-briefcase-fill"></i></div>
+              <div>
+                <h3>Professional Experience</h3>
+                <div class="rv-hdr-bar bar-green"></div>
+              </div>
             </div>
 
-            <div class="resume-item">
-              <h4>NAVTTC — National Training Program</h4>
-              <h5>MERN Stack Development</h5>
-              <p>Developed full-stack web applications using the MERN stack, gaining hands-on experience in frontend/backend development, RESTful APIs, and database management. Collaborated in team environments delivering high-quality web solutions.</p>
+            <div class="rv-card rv-featured" data-aos="fade-up" data-aos-delay="80">
+              <div class="rv-accent accent-green"></div>
+              <div class="rv-live-badge"><span class="rv-live-dot"></span>Current</div>
+              <div class="rv-meta">
+                <span class="rv-year"><i class="bi bi-calendar3"></i>Jun 2025 – Present</span>
+                <span class="rv-badge badge-green">Onsite</span>
+              </div>
+              <h4 class="rv-role">Associate Software Engineer</h4>
+              <div class="rv-org org-green"><i class="bi bi-buildings-fill"></i>Xpert Prime</div>
+              <p class="rv-desc">Working across multiple tech stacks — MERN, Next.js, PHP, Shopify, and WordPress. Building custom integrations and automation pipelines using the Zoho ecosystem (CRM, Analytics, Commerce, Flow). Delivering scalable, high-quality software in cross-functional teams.</p>
+              <div class="rv-tags">
+                <span>MERN</span><span>Next.js</span><span>PHP</span><span>Shopify</span><span>WordPress</span><span>Zoho</span>
+              </div>
             </div>
 
-            <div class="resume-item">
-              <h4>Bytewise Fellowship</h4>
-              <h5>MERN Stack — Competitive Fellowship</h5>
-              <p>Selected among 2,300+ applicants for this prestigious fellowship. Completed intensive full-stack development through real-world projects, sharpening both technical expertise and professional engineering practices.</p>
-              <a href="https://github.com/Zubair1021/Bytewise-Fellowship-MERN-Fellow-" target="_blank" class="resume-link">View My Work <i class="bi bi-arrow-right"></i></a>
+            <div class="rv-card" data-aos="fade-up" data-aos-delay="160">
+              <div class="rv-accent"></div>
+              <div class="rv-meta">
+                <span class="rv-year"><i class="bi bi-calendar3"></i>National Program</span>
+                <span class="rv-badge">Training</span>
+              </div>
+              <h4 class="rv-role">NAVTTC — National Training Program</h4>
+              <div class="rv-org"><i class="bi bi-buildings-fill"></i>NAVTTC</div>
+              <p class="rv-desc">Developed full-stack web applications using the MERN stack, gaining hands-on experience in RESTful APIs, database management, and team-based delivery of production-grade web solutions.</p>
+              <div class="rv-tags"><span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span></div>
             </div>
 
-            <div class="resume-item">
-              <h4>Tiers Limited — Mobile App Development</h4>
-              <h5>Internship</h5>
-              <p>Built and optimized mobile applications, gaining experience in app architecture, UX design principles, and mobile-specific development best practices.</p>
+            <div class="rv-card" data-aos="fade-up" data-aos-delay="240">
+              <div class="rv-accent accent-orange"></div>
+              <div class="rv-meta">
+                <span class="rv-year"><i class="bi bi-calendar3"></i>Competitive</span>
+                <span class="rv-badge badge-orange">Fellowship</span>
+              </div>
+              <h4 class="rv-role">Bytewise Fellowship — MERN Stack</h4>
+              <div class="rv-org"><i class="bi bi-buildings-fill"></i>Bytewise Limited</div>
+              <p class="rv-desc">Selected among <strong>2,300+ applicants</strong> for this prestigious fellowship. Completed intensive full-stack development through real-world projects, sharpening both technical expertise and professional engineering practices.</p>
+              <div class="rv-tags"><span>MERN</span><span>Full Stack</span><span>REST APIs</span></div>
+              <a href="https://github.com/Zubair1021/Bytewise-Fellowship-MERN-Fellow-" target="_blank" class="rv-link">
+                View My Work <i class="bi bi-arrow-right-short"></i>
+              </a>
             </div>
+
+            <div class="rv-card" data-aos="fade-up" data-aos-delay="320">
+              <div class="rv-accent accent-purple"></div>
+              <div class="rv-meta">
+                <span class="rv-year"><i class="bi bi-calendar3"></i>Internship</span>
+                <span class="rv-badge">Mobile Dev</span>
+              </div>
+              <h4 class="rv-role">Mobile App Development Intern</h4>
+              <div class="rv-org"><i class="bi bi-buildings-fill"></i>Tiers Limited</div>
+              <p class="rv-desc">Built and optimized mobile applications, gaining experience in app architecture, UX design principles, and mobile-specific development best practices working alongside a professional team.</p>
+              <div class="rv-tags"><span>Mobile</span><span>App Dev</span><span>UX Design</span></div>
+            </div>
+
           </div>
         </div>
 
         <div class="text-center mt-5">
           <a href="https://drive.google.com/file/d/1bZlIMTjqEPproqhzyRsPjlgufT7Dwzkq/view?usp=sharing" target="_blank" id="res-btn">
-            <i class="bx bx-download"></i> Download Full Resume
+            <i class="bx bx-download"></i>&nbsp; Download Full Resume
           </a>
         </div>
 
@@ -518,210 +913,396 @@
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
 
-        <div class="section-title">
+      <div class="container">
+        <div class="section-title section-title-light" data-aos="fade-up">
           <h2>Projects &amp; Work</h2>
           <p>A curated selection spanning full-stack web applications, AI integrations, system-level programming, and interactive games.</p>
         </div>
+      </div>
 
-        <div class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">Programming</li>
-            <li data-filter=".filter-card">Games</li>
-            <li data-filter=".filter-web">Web</li>
-          </ul>
-        </div>
+      <!-- Row 1 — continuously LEFT → RIGHT -->
+      <div class="pf-marquee" data-aos="fade-up" data-aos-delay="100">
+        <div class="pf-track pf-track-ltr">
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="Supermarket System">
-              <div class="portfolio-info">
-                <h4>Supermarket System</h4>
-                <p>.NET &amp; C#</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="https://youtu.be/Xi6Z1DNRfok?si=zH8wIM0N_5LQRj5x" target="_blank" title="Supermarket System Using .NET">
-                  <i class="bx bx-link-external"></i>
+          <!-- === Original set === -->
+          <div class="pf-card">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" alt="Supermarket System" class="pf-img" loading="lazy">
+              <span class="pf-tag">Programming</span>
+              <div class="pf-overlay">
+                <a href="https://youtu.be/Xi6Z1DNRfok?si=zH8wIM0N_5LQRj5x" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
                 </a>
               </div>
             </div>
+            <div class="pf-body"><h4 class="pf-title">Supermarket System</h4><p class="pf-tech">.NET &amp; C#</p></div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="Supermarket Website">
-              <div class="portfolio-info">
-                <h4>Supermarket Website</h4>
-                <p>HTML, CSS, JavaScript</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="https://github.com/Zubair1021" target="_blank" title="Supermarket Website"><i class="bx bx-link-external"></i></a>
+          <div class="pf-card">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" alt="Supermarket Website" class="pf-img" loading="lazy">
+              <span class="pf-tag pf-tag-web">Web</span>
+              <div class="pf-overlay">
+                <a href="https://github.com/Zubair1021" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
               </div>
             </div>
+            <div class="pf-body"><h4 class="pf-title">Supermarket Website</h4><p class="pf-tech">HTML, CSS, JavaScript</p></div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="Zombie Shooter Game">
-              <div class="portfolio-info">
-                <h4>Zombie Shooter Game</h4>
-                <p>.NET</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="https://youtu.be/kcsALOGTXY8?si=cE3ltn_VvT85ADDn" target="_blank" title="Zombie Shooter Game"><i class="bx bx-link-external"></i></a>
+          <div class="pf-card">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" alt="Zombie Shooter Game" class="pf-img" loading="lazy">
+              <span class="pf-tag pf-tag-game">Game</span>
+              <div class="pf-overlay">
+                <a href="https://youtu.be/kcsALOGTXY8?si=cE3ltn_VvT85ADDn" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
               </div>
             </div>
+            <div class="pf-body"><h4 class="pf-title">Zombie Shooter Game</h4><p class="pf-tech">.NET</p></div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/P-2.png" class="img-fluid" alt="CRUD Website">
-              <div class="portfolio-info">
-                <h4>CRUD Application</h4>
-                <p>HTML, CSS, JavaScript</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="https://github.com/Zubair1021" target="_blank" title="CRUD Website"><i class="bx bx-link-external"></i></a>
+          <div class="pf-card">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/P-2.png" alt="CRUD Application" class="pf-img" loading="lazy">
+              <span class="pf-tag pf-tag-web">Web</span>
+              <div class="pf-overlay">
+                <a href="https://github.com/Zubair1021" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
               </div>
             </div>
+            <div class="pf-body"><h4 class="pf-title">CRUD Application</h4><p class="pf-tech">HTML, CSS, JavaScript</p></div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/p3.jpg" class="img-fluid" alt="Expense Tracker">
-              <div class="portfolio-info">
-                <h4>Expense Tracker</h4>
-                <p>HTML, CSS, JavaScript</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="https://github.com/Zubair1021" target="_blank" title="Expense Tracker"><i class="bx bx-link-external"></i></a>
+          <div class="pf-card">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/p3.jpg" alt="Expense Tracker" class="pf-img" loading="lazy">
+              <span class="pf-tag pf-tag-web">Web</span>
+              <div class="pf-overlay">
+                <a href="https://github.com/Zubair1021" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
               </div>
             </div>
+            <div class="pf-body"><h4 class="pf-title">Expense Tracker</h4><p class="pf-tech">HTML, CSS, JavaScript</p></div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/p4.jpg" class="img-fluid" alt="Apple Website Clone">
-              <div class="portfolio-info">
-                <h4>Apple Website Clone</h4>
-                <p>HTML, CSS, JavaScript</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="https://github.com/Zubair1021" target="_blank" title="Apple Website Clone"><i class="bx bx-link-external"></i></a>
+          <div class="pf-card">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/p4.jpg" alt="Apple Website Clone" class="pf-img" loading="lazy">
+              <span class="pf-tag pf-tag-web">Web</span>
+              <div class="pf-overlay">
+                <a href="https://github.com/Zubair1021" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
               </div>
             </div>
+            <div class="pf-body"><h4 class="pf-title">Apple Website Clone</h4><p class="pf-tech">HTML, CSS, JavaScript</p></div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/p9.png" class="img-fluid" alt="DSA and .NET Project">
-              <div class="portfolio-info">
-                <h4>DSA + Stack Overflow Scraper</h4>
-                <p>C# &amp; .NET — 1M+ Data Points</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="https://github.com/Zubair1021" target="_blank" title="DSA Project"><i class="bx bx-link-external"></i></a>
+          <div class="pf-card">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/p9.png" alt="DSA Project" class="pf-img" loading="lazy">
+              <span class="pf-tag">Programming</span>
+              <div class="pf-overlay">
+                <a href="https://github.com/Zubair1021" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
               </div>
             </div>
+            <div class="pf-body"><h4 class="pf-title">DSA + Stack Overflow Scraper</h4><p class="pf-tech">C# &amp; .NET — 1M+ Data Points</p></div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Bootstrap-pic.png" class="img-fluid" alt="Course Website">
-              <div class="portfolio-info">
-                <h4>Course Platform</h4>
-                <p>HTML, CSS, Bootstrap</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="https://github.com/Zubair1021" target="_blank" title="Course Website"><i class="bx bx-link-external"></i></a>
+          <!-- === Duplicate set (seamless loop) === -->
+          <div class="pf-card" aria-hidden="true">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" alt="" class="pf-img" loading="lazy">
+              <span class="pf-tag">Programming</span>
+              <div class="pf-overlay">
+                <a href="https://youtu.be/Xi6Z1DNRfok?si=zH8wIM0N_5LQRj5x" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
               </div>
             </div>
+            <div class="pf-body"><h4 class="pf-title">Supermarket System</h4><p class="pf-tech">.NET &amp; C#</p></div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/ZHA-Lib-pic.png" class="img-fluid" alt="Library Management System">
-              <div class="portfolio-info">
-                <h4>Library Management System</h4>
-                <p>.NET &amp; MSSQL</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="https://youtu.be/uN-DE9aDyTY" target="_blank" title="Library Management System"><i class="bx bx-link-external"></i></a>
+          <div class="pf-card" aria-hidden="true">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" alt="" class="pf-img" loading="lazy">
+              <span class="pf-tag pf-tag-web">Web</span>
+              <div class="pf-overlay">
+                <a href="https://github.com/Zubair1021" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
               </div>
             </div>
+            <div class="pf-body"><h4 class="pf-title">Supermarket Website</h4><p class="pf-tech">HTML, CSS, JavaScript</p></div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Uni-ma-pic.png" class="img-fluid" alt="University Management System">
-              <div class="portfolio-info">
-                <h4>University Management System</h4>
-                <p>.NET &amp; MSSQL</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="https://github.com/Zubair1021" target="_blank" title="University Management System"><i class="bx bx-link-external"></i></a>
+          <div class="pf-card" aria-hidden="true">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" alt="" class="pf-img" loading="lazy">
+              <span class="pf-tag pf-tag-game">Game</span>
+              <div class="pf-overlay">
+                <a href="https://youtu.be/kcsALOGTXY8?si=cE3ltn_VvT85ADDn" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
               </div>
             </div>
+            <div class="pf-body"><h4 class="pf-title">Zombie Shooter Game</h4><p class="pf-tech">.NET</p></div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="War of Ship Game">
-              <div class="portfolio-info">
-                <h4>War of Ship Game</h4>
-                <p>C++ CLI</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="https://youtu.be/v9yWZ0b7smM" target="_blank" title="War of Ship Game"><i class="bx bx-link-external"></i></a>
+          <div class="pf-card" aria-hidden="true">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/P-2.png" alt="" class="pf-img" loading="lazy">
+              <span class="pf-tag pf-tag-web">Web</span>
+              <div class="pf-overlay">
+                <a href="https://github.com/Zubair1021" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
               </div>
             </div>
+            <div class="pf-body"><h4 class="pf-title">CRUD Application</h4><p class="pf-tech">HTML, CSS, JavaScript</p></div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/AudioAura.png" class="img-fluid" alt="AudioAura Music Website">
-              <div class="portfolio-info">
-                <h4>AudioAura Music Platform</h4>
-                <p>Full Stack Web App</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="https://youtu.be/KhmRZvIjt1E" target="_blank" title="AudioAura Music Website"><i class="bx bx-link-external"></i></a>
+          <div class="pf-card" aria-hidden="true">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/p3.jpg" alt="" class="pf-img" loading="lazy">
+              <span class="pf-tag pf-tag-web">Web</span>
+              <div class="pf-overlay">
+                <a href="https://github.com/Zubair1021" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
               </div>
             </div>
+            <div class="pf-body"><h4 class="pf-title">Expense Tracker</h4><p class="pf-tech">HTML, CSS, JavaScript</p></div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/CloudKitchen.png" class="img-fluid" alt="Cloud Kitchen Website">
-              <div class="portfolio-info">
-                <h4>Cloud Kitchen Platform</h4>
-                <p>MERN Stack</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="https://hncloudkitchen.netlify.app/" target="_blank" title="Cloud Kitchen Website"><i class="bx bx-link-external"></i></a>
+          <div class="pf-card" aria-hidden="true">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/p4.jpg" alt="" class="pf-img" loading="lazy">
+              <span class="pf-tag pf-tag-web">Web</span>
+              <div class="pf-overlay">
+                <a href="https://github.com/Zubair1021" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
               </div>
             </div>
+            <div class="pf-body"><h4 class="pf-title">Apple Website Clone</h4><p class="pf-tech">HTML, CSS, JavaScript</p></div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Petzliva.png" class="img-fluid" alt="Petzliva Pet Care Website">
-              <div class="portfolio-info">
-                <h4>Petzliva — Pet Care App</h4>
-                <p>MERN Stack</p>
-              </div>
-              <div class="portfolio-links">
-                <a href="https://petzliva.vercel.app/" target="_blank" title="Petzliva Pet Care"><i class="bx bx-link-external"></i></a>
+          <div class="pf-card" aria-hidden="true">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/p9.png" alt="" class="pf-img" loading="lazy">
+              <span class="pf-tag">Programming</span>
+              <div class="pf-overlay">
+                <a href="https://github.com/Zubair1021" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
               </div>
             </div>
+            <div class="pf-body"><h4 class="pf-title">DSA + Stack Overflow Scraper</h4><p class="pf-tech">C# &amp; .NET — 1M+ Data Points</p></div>
           </div>
 
         </div>
-      </div>
+      </div><!-- /pf-marquee row 1 -->
+
+      <!-- Row 2 — continuously RIGHT → LEFT -->
+      <div class="pf-marquee" data-aos="fade-up" data-aos-delay="200">
+        <div class="pf-track pf-track-rtl">
+
+          <!-- === Original set === -->
+          <div class="pf-card">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/Bootstrap-pic.png" alt="Course Platform" class="pf-img" loading="lazy">
+              <span class="pf-tag pf-tag-web">Web</span>
+              <div class="pf-overlay">
+                <a href="https://github.com/Zubair1021" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
+              </div>
+            </div>
+            <div class="pf-body"><h4 class="pf-title">Course Platform</h4><p class="pf-tech">HTML, CSS, Bootstrap</p></div>
+          </div>
+
+          <div class="pf-card">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/ZHA-Lib-pic.png" alt="Library Management System" class="pf-img" loading="lazy">
+              <span class="pf-tag">Programming</span>
+              <div class="pf-overlay">
+                <a href="https://youtu.be/uN-DE9aDyTY" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
+              </div>
+            </div>
+            <div class="pf-body"><h4 class="pf-title">Library Management System</h4><p class="pf-tech">.NET &amp; MSSQL</p></div>
+          </div>
+
+          <div class="pf-card">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/Uni-ma-pic.png" alt="University Management System" class="pf-img" loading="lazy">
+              <span class="pf-tag">Programming</span>
+              <div class="pf-overlay">
+                <a href="https://github.com/Zubair1021" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
+              </div>
+            </div>
+            <div class="pf-body"><h4 class="pf-title">University Management System</h4><p class="pf-tech">.NET &amp; MSSQL</p></div>
+          </div>
+
+          <div class="pf-card">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/portfolio-3.jpg" alt="War of Ship Game" class="pf-img" loading="lazy">
+              <span class="pf-tag pf-tag-game">Game</span>
+              <div class="pf-overlay">
+                <a href="https://youtu.be/v9yWZ0b7smM" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
+              </div>
+            </div>
+            <div class="pf-body"><h4 class="pf-title">War of Ship Game</h4><p class="pf-tech">C++ CLI</p></div>
+          </div>
+
+          <div class="pf-card">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/AudioAura.png" alt="AudioAura Music Platform" class="pf-img" loading="lazy">
+              <span class="pf-tag pf-tag-web">Web</span>
+              <div class="pf-overlay">
+                <a href="https://youtu.be/KhmRZvIjt1E" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
+              </div>
+            </div>
+            <div class="pf-body"><h4 class="pf-title">AudioAura Music Platform</h4><p class="pf-tech">Full Stack Web App</p></div>
+          </div>
+
+          <div class="pf-card">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/CloudKitchen.png" alt="Cloud Kitchen Platform" class="pf-img" loading="lazy">
+              <span class="pf-tag pf-tag-web">Web</span>
+              <div class="pf-overlay">
+                <a href="https://hncloudkitchen.netlify.app/" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
+              </div>
+            </div>
+            <div class="pf-body"><h4 class="pf-title">Cloud Kitchen Platform</h4><p class="pf-tech">MERN Stack</p></div>
+          </div>
+
+          <div class="pf-card">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/Petzliva.png" alt="Petzliva Pet Care App" class="pf-img" loading="lazy">
+              <span class="pf-tag pf-tag-web">Web</span>
+              <div class="pf-overlay">
+                <a href="https://petzliva.vercel.app/" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
+              </div>
+            </div>
+            <div class="pf-body"><h4 class="pf-title">Petzliva — Pet Care App</h4><p class="pf-tech">MERN Stack</p></div>
+          </div>
+
+          <!-- === Duplicate set (seamless loop) === -->
+          <div class="pf-card" aria-hidden="true">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/Bootstrap-pic.png" alt="" class="pf-img" loading="lazy">
+              <span class="pf-tag pf-tag-web">Web</span>
+              <div class="pf-overlay">
+                <a href="https://github.com/Zubair1021" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
+              </div>
+            </div>
+            <div class="pf-body"><h4 class="pf-title">Course Platform</h4><p class="pf-tech">HTML, CSS, Bootstrap</p></div>
+          </div>
+
+          <div class="pf-card" aria-hidden="true">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/ZHA-Lib-pic.png" alt="" class="pf-img" loading="lazy">
+              <span class="pf-tag">Programming</span>
+              <div class="pf-overlay">
+                <a href="https://youtu.be/uN-DE9aDyTY" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
+              </div>
+            </div>
+            <div class="pf-body"><h4 class="pf-title">Library Management System</h4><p class="pf-tech">.NET &amp; MSSQL</p></div>
+          </div>
+
+          <div class="pf-card" aria-hidden="true">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/Uni-ma-pic.png" alt="" class="pf-img" loading="lazy">
+              <span class="pf-tag">Programming</span>
+              <div class="pf-overlay">
+                <a href="https://github.com/Zubair1021" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
+              </div>
+            </div>
+            <div class="pf-body"><h4 class="pf-title">University Management System</h4><p class="pf-tech">.NET &amp; MSSQL</p></div>
+          </div>
+
+          <div class="pf-card" aria-hidden="true">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/portfolio-3.jpg" alt="" class="pf-img" loading="lazy">
+              <span class="pf-tag pf-tag-game">Game</span>
+              <div class="pf-overlay">
+                <a href="https://youtu.be/v9yWZ0b7smM" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
+              </div>
+            </div>
+            <div class="pf-body"><h4 class="pf-title">War of Ship Game</h4><p class="pf-tech">C++ CLI</p></div>
+          </div>
+
+          <div class="pf-card" aria-hidden="true">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/AudioAura.png" alt="" class="pf-img" loading="lazy">
+              <span class="pf-tag pf-tag-web">Web</span>
+              <div class="pf-overlay">
+                <a href="https://youtu.be/KhmRZvIjt1E" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
+              </div>
+            </div>
+            <div class="pf-body"><h4 class="pf-title">AudioAura Music Platform</h4><p class="pf-tech">Full Stack Web App</p></div>
+          </div>
+
+          <div class="pf-card" aria-hidden="true">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/CloudKitchen.png" alt="" class="pf-img" loading="lazy">
+              <span class="pf-tag pf-tag-web">Web</span>
+              <div class="pf-overlay">
+                <a href="https://hncloudkitchen.netlify.app/" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
+              </div>
+            </div>
+            <div class="pf-body"><h4 class="pf-title">Cloud Kitchen Platform</h4><p class="pf-tech">MERN Stack</p></div>
+          </div>
+
+          <div class="pf-card" aria-hidden="true">
+            <div class="pf-img-wrap">
+              <img src="assets/img/portfolio/Petzliva.png" alt="" class="pf-img" loading="lazy">
+              <span class="pf-tag pf-tag-web">Web</span>
+              <div class="pf-overlay">
+                <a href="https://petzliva.vercel.app/" target="_blank" class="pf-link-btn">
+                  <i class="bx bx-link-external"></i><span>View Project</span>
+                </a>
+              </div>
+            </div>
+            <div class="pf-body"><h4 class="pf-title">Petzliva — Pet Care App</h4><p class="pf-tech">MERN Stack</p></div>
+          </div>
+
+        </div>
+      </div><!-- /pf-marquee row 2 -->
+
     </section>
 
     <!-- ======= Services Section ======= -->
